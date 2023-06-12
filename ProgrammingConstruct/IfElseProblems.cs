@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingConstruct
 {
-    public class Problems
+    public class IfElseProblems
     {
         public void CheckIntegersEqualOrNot()
         {

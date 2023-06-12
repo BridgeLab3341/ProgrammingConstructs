@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Problems problem = new Problems();
+            IfElseProblems problem = new IfElseProblems();
             problem.CheckIntegersEqualOrNot();
         }
     }
