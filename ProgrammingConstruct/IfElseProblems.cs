@@ -22,5 +22,18 @@ namespace ProgrammingConstruct
                 Console.WriteLine("{0} and {1} are NotEqual", num1, num2);
             }
         }
+        public void CheckNumIsEvenOdd()
+        {
+            Console.WriteLine("Enter Number");
+            int num=Convert.ToInt32(Console.ReadLine());
+            if(num % 2 == 0)
+            {
+                Console.WriteLine("{0} Is Even Number.", num);
+            }
+            else
+            {
+                Console.WriteLine("{0} Is Odd Number.",num);
+            }
+        }
     }
 }
