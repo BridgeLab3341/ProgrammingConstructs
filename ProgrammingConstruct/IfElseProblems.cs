@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +34,17 @@ namespace ProgrammingConstruct
             else
             {
                 Console.WriteLine("{0} Is Odd Number.",num);
+            }
+        }
+        public void CheckAgeEligiblity(int age)
+        {
+            if(age < 18)
+            {
+                Console.WriteLine("Candidate age {0} is Not Eligible to Vote",age);
+            }
+            else
+            {
+                Console.WriteLine("Candidate age {0} is Eligible to Vote",age);
             }
         }
     }
